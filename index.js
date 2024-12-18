@@ -32,6 +32,10 @@ App.get("/youtube2", (req, res) => {
 App.get("/youtube3", (req, res) => {
   res.send("CHAI");
 });
+
+App.get("/youtube4", (req, res) => {
+  res.send("CHAI is ready");
+});
 App.listen(port, () => {
   console.log(`SERVER IS LISTENING AT ${port}`);
 });
